@@ -9,7 +9,7 @@ Este projeto implementa a estimativa de pose para bovinos utilizando o dataset A
 O dataset ANIMAL-POSE pode ser obtido [aqui](https://sites.google.com/view/animal-pose/).
 
 ### Análise Exploratória
-A análise exploratória foi realizada para entender a distribuição das categorias no dataset e visualizar algumas imagens de amostra. Foram encontradas X imagens de bovinos.
+A análise exploratória foi realizada para entender a distribuição das categorias no dataset e visualizar algumas imagens de amostra. Foram encontradas 842 imagens de bovinos.
 
 #### Visualização de Imagens
 Foram visualizadas as 10 primeiras imagens do dataset para uma inspeção inicial:
@@ -21,7 +21,7 @@ A contagem das ocorrências de cada categoria foi plotada, destacando a quantida
 
 ![Distribuição das Categorias](av1.png)
 
-Total de imagens de bovinos: **X**
+Total de imagens de bovinos: **842**
 
 ## 2. Filtragem e Processamento de Imagens de Bovinos
 
