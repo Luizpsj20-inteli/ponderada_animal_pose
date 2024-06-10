@@ -17,7 +17,7 @@ Foram visualizadas as 10 primeiras imagens do dataset para uma inspeção inicia
 ![Exemplos de Imagens](imagens_dataset_completo.png)
 
 #### Distribuição das Categorias
-A contagem das ocorrências de cada categoria foi plotada, destacando a quantidade de imagens de bovinos:
+A contagem das ocorrências de cada categoria foi plotada:
 
 ![Distribuição das Categorias](av1.png)
 
@@ -29,7 +29,7 @@ Total de imagens de bovinos: **842**
 O dataset foi filtrado para manter apenas as imagens de bovinos. O processo de filtragem envolveu a seleção das anotações correspondentes à categoria de bovinos e a separação dessas imagens.
 
 ### Processamento de Imagens
-As imagens de bovinos foram processadas para realizar a estimativa de pose. A figura a seguir ilustra o processo de filtragem e processamento:
+As imagens de bovinos foram processadas para realizar a estimativa de pose. O gráfico a seguir ilustra as categorias com destaque para bovinos:
 
 ![Processo de Filtragem e Processamento](av2.png)
 
