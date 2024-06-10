@@ -14,12 +14,12 @@ A análise exploratória foi realizada para entender a distribuição das catego
 #### Visualização de Imagens
 Foram visualizadas as 10 primeiras imagens do dataset para uma inspeção inicial:
 
-![Exemplos de Imagens](path/to/your/example_images.png)
+![Exemplos de Imagens](imagens_dataset_completo.png)
 
 #### Distribuição das Categorias
 A contagem das ocorrências de cada categoria foi plotada, destacando a quantidade de imagens de bovinos:
 
-![Distribuição das Categorias](path/to/your/category_distribution.png)
+![Distribuição das Categorias](av1.png)
 
 Total de imagens de bovinos: **X**
 
@@ -31,35 +31,23 @@ O dataset foi filtrado para manter apenas as imagens de bovinos. O processo de f
 ### Processamento de Imagens
 As imagens de bovinos foram processadas para realizar a estimativa de pose. A figura a seguir ilustra o processo de filtragem e processamento:
 
-![Processo de Filtragem e Processamento](path/to/your/processing_illustration.png)
+![Processo de Filtragem e Processamento](av2.png)
 
 #### Exemplo de Processamento
 1. Carregamento da imagem
 2. Identificação dos pontos chave
 3. Visualização da pose estimada
 
-![Exemplo de Processamento](path/to/your/processing_example.png)
+![Exemplo de Processamento](av3.png)
 
 ## 3. Resultados Finais
 
 ### Predição de Pose
 A predição da pose foi realizada em várias imagens de bovinos. A seguir, são apresentados alguns resultados de predição:
 
-![Predição de Pose 1](path/to/your/prediction_result_1.png)
-![Predição de Pose 2](path/to/your/prediction_result_2.png)
+![Predição de Pose 1](av4.png)
+![Predição de Pose 2](av5.png)
 
-### Resumo dos Resultados
-Os principais resultados obtidos foram:
-
-- Número total de imagens processadas: **X**
-- Acurácia média da estimativa de pose: **Y%**
-
-### Tabelas de Resultados
-| Métrica       | Valor  |
-|---------------|--------|
-| Imagens       | X      |
-| Acurácia (%)  | Y      |
-| Erro Médio    | Z      |
 
 ## 4. Conclusões Pessoais
 
@@ -68,7 +56,7 @@ Durante a implementação deste projeto, alguns dos principais aprendizados fora
 
 - A importância da análise exploratória para entender a composição do dataset.
 - Os desafios na filtragem e pré-processamento de imagens para tarefas específicas.
-- A necessidade de ajustes finos nos modelos para melhorar a acurácia da estimativa de pose.
+- A necessidade de ajustes finos em imagens por contas de semelhanças entre diferentes animais, tornadno uma tarefa difícil definir os pontos chaves.
 
 ### Limitações
 Algumas das limitações do trabalho incluem:
@@ -77,12 +65,14 @@ Algumas das limitações do trabalho incluem:
 - Limitações do modelo utilizado em reconhecer poses em diferentes condições de iluminação e ângulos de câmera.
 
 ### Trabalhos Futuros
-Para trabalhos futuros, sugerimos:
+Para trabalhos futuros:
 
 - Aumentar a diversidade e qualidade das imagens no dataset.
 - Explorar modelos mais avançados e técnicas de data augmentation para melhorar a precisão.
 - Implementar um pipeline automatizado para a estimativa de pose em tempo real.
+- Testar com mais técincas de data augmentation e de melhoria que estudamos surante o módulo.
+- Talvez definir um pouco melhor os box de referência.
 
 ---
 
-Este projeto foi desenvolvido por [Seu Nome], utilizando o dataset ANIMAL-POSE e técnicas de aprendizado profundo para a estimativa de pose em bovinos.
+Este projeto foi desenvolvido por Luiz Carlos da Silva Júnior, utilizando o dataset ANIMAL-POSE e técnicas de aprendizado profundo para a estimativa de pose em bovinos.
