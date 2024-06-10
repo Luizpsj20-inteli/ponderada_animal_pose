@@ -48,6 +48,7 @@ A predição da pose foi realizada em várias imagens de bovinos. A seguir, são
 ![Predição de Pose 1](av4.png)
 ![Predição de Pose 2](av5.png)
 ![Predição de Pose 2](av6.png)
+![Predição de Pose 2](av7.png)
 
 ## 4. Conclusões Pessoais
 
